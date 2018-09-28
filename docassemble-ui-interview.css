@@ -1,0 +1,155 @@
+.navbar-header.danavbar button, .navbar-header.danavbar span, .navbar-header.danavbar ul, .navbar-header.danavbar a {
+  display: none !important; }
+
+body.endOfInterview #question #accordionOne {
+  max-width: none;
+  padding: 0;
+  border: none;
+  margin-top: 20px; }
+  body.endOfInterview #question #accordionOne .mb-2 {
+    margin-bottom: 0 !important; }
+body.endOfInterview input[type="text"], body.endOfInterview input[type="email"] {
+  border: none;
+  border-bottom: 1px solid lightgray; }
+body.endOfInterview .container > div:not(#accordionOne):not(.page-header) {
+  background: white; }
+body.endOfInterview .endOfDocuments {
+  margin-bottom: 40px !important; }
+body.endOfInterview .card-header {
+  background: #3EC891; }
+  body.endOfInterview .card-header a {
+    color: white; }
+body.endOfInterview .panel-body .btn {
+  border-radius: 15px; }
+body.endOfInterview .panel-body input {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid lightgray; }
+body.endOfInterview .panel-body fieldset .form-g5oup {
+  margin-bottom: 0; }
+  body.endOfInterview .panel-body fieldset .form-g5oup:last-of-type {
+    margin-top: 10px; }
+body.endOfInterview .form-group + button.btn {
+  background: #3EC891;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  float: right;
+  border-radius: 15px;
+  margin-bottom: 10px; }
+body.endOfInterview #question.col-md-8 {
+  max-width: none; }
+
+.container .col-sm-offset-4 {
+  margin: 0; }
+.container input[type="checkbox"] + label, .container input[type="radio"] + label {
+  background: white;
+  color: black; }
+.container input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none; }
+.container textarea.form-control {
+  padding: 10px; }
+.container input[type="checkbox"]:checked + label, .container input[type="radio"]:checked + label {
+  background: #72c5fd; }
+.container .form-control {
+  border-radius: 0;
+  padding: 20px 10px; }
+.container input[type="number"] {
+  padding: 0.375rem 0.75rem; }
+.container input[type="text"]:focus, .container input[type="email"]:focus {
+  box-shadow: none; }
+.container .form-control.file-caption {
+  height: 42px;
+  padding: 10px; }
+  .container .form-control.file-caption:focus {
+    border-color: #ccc;
+    box-shadow: none; }
+.container .btn.btn-file {
+  padding: 8px;
+  background: #3EC891;
+  border: none; }
+.container select.form-control {
+  padding: 20px;
+  padding: 0 10px;
+  height: 42px; }
+.container .form-actions {
+  text-align: right; }
+  .container .form-actions button {
+    background: #3EC891;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    font-weight: normal; }
+    .container .form-actions button i.glyphicon {
+      display: none; }
+  .container .form-actions button[type="submit"] {
+    padding: 7px 20px;
+    float: right;
+    margin-left: 10px; }
+  .container .form-actions .btn-da {
+    font-weight: bold; }
+    .container .form-actions .btn-da svg {
+      margin-right: 5px; }
+.container #question {
+  width: 100%; }
+  .container #question .col-md-8, .container #question.col-md-8 {
+    max-width: none;
+    flex-basis: auto; }
+  .container #question.col-md-8 {
+    max-width: 700px; }
+  .container #question > form .row h4 {
+    text-decoration: underline;
+    margin: 10px 0 20px;
+    font-size: 22px; }
+  .container #question > form .form-actions {
+    margin-top: 20px; }
+.container .form-group {
+  display: flex;
+  flex-direction: column; }
+  .container .form-group.required .control-label:after {
+    right: auto;
+    top: auto;
+    padding-left: 10px; }
+  .container .form-group.required .col-form-label:after {
+    position: static;
+    padding-left: 5px; }
+  .container .form-group label {
+    text-align: left;
+    font-weight: normal;
+    max-width: none; }
+  .container .form-group .datext-right {
+    text-align: left !important; }
+  .container .form-group label.col-sm-4 {
+    width: auto; }
+.container button#questionbackbutton + button[value="True"] {
+  border: none;
+  background: #3EC891;
+  margin: 0 10px 5px;
+  padding: 7px 20px; }
+  .container button#questionbackbutton + button[value="True"] + button[value="False"] {
+    border: none;
+    background: black;
+    padding: 7px 20px; }
+.container #daform > fieldset > div.page-header + p.sr-only + div > #questionbackbutton {
+  border: none;
+  padding: 7px 20px;
+  position: absolute;
+  top: 240px;
+  left: 26px;
+  margin: 0; }
+.container fieldset div.page-header + div + p.sr-only + div > button[type="submit"] {
+  margin-left: 30%; }
+.container fieldset div.page-header + div + p.sr-only + div > button {
+  background: #3EC891;
+  border: none;
+  padding: 7px 20px; }
+.container .table th {
+  border: none; }
+.container #questionbackbutton {
+  padding: 7px 20px;
+  margin: 0 10px; }
+
+/*# sourceMappingURL=docassemble-ui-interview.css.map */
